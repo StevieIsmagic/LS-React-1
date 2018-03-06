@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*eslint no-unused-vars: "off"*/
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
@@ -22,3 +23,10 @@ const App = () => {
 
 
 ReactDOM.render(<App />, document.getElementById('root'));
+=======
+import React from 'react';
+import { render } from 'react-dom';
+import App from './App';
+
+render(<App />, document.getElementById('root'));
+>>>>>>> 5ff6dedcaf1963861854e30de7231af9cc956458
